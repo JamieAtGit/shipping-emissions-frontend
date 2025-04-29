@@ -1,0 +1,18 @@
+{
+    "UK": {
+      "city": "Dunstable",
+      "lat": 51.8821,
+      "lon": -0.5057
+    },
+    "Germany": {
+      "city": "Frankfurt",
+      "lat": 50.1109,
+      "lon": 8.6821
+    },
+    "Italy": {
+      "city": "Castel San Giovanni",
+      "lat": 45.0667,
+      "lon": 9.4167
+    }
+  }
+  

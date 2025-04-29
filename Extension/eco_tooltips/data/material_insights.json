@@ -1,0 +1,62 @@
+{
+  "lithium": {
+    "summary": "Lithium mining is water-intensive and polluting. Improper disposal risks chemical leakage into soil and water systems.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "cobalt": {
+    "summary": "Cobalt extraction, often in the DRC, has major ethical and environmental issues. Toxic if not recycled properly.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "plastic": {
+    "summary": "Plastic takes hundreds of years to degrade. Often ends up in landfills or oceans, contributing to microplastic pollution.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "aluminum": {
+    "summary": "High carbon footprint due to energy-intensive smelting. Recyclable but costly to produce from raw materials.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "glass": {
+    "summary": "Recyclable, but high energy use in melting and reprocessing. Often downcycled in practice.",
+    "impact": "Low",
+    "recyclable": true
+  },
+  "copper": {
+    "summary": "Copper mining disrupts ecosystems. Recyclable, but often lost in electronics e-waste.",
+    "impact": "Moderate",
+    "recyclable": true
+  },
+  "nickel": {
+    "summary": "Used in batteries. Nickel mining releases sulfur dioxide and other toxins into the environment.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "polycarbonate": {
+    "summary": "A petroleum-based plastic, not biodegradable. Common in electronics, with limited recycling.",
+    "impact": "Moderate",
+    "recyclable": false
+  },
+  "PVC": {
+    "summary": "Produces toxic chlorine-based chemicals when burned. Often non-recyclable.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "lead": {
+    "summary": "Toxic heavy metal. Can contaminate water and soil. Proper e-waste disposal required.",
+    "impact": "High",
+    "recyclable": false
+  },
+  "gold": {
+    "summary": "Gold mining uses cyanide and mercury, causing serious ecological harm in developing regions.",
+    "impact": "High",
+    "recyclable": true
+  },
+  "rare earth": {
+    "summary": "Rare earth mining produces radioactive waste. High pollution footprint despite small material volumes.",
+    "impact": "High",
+    "recyclable": false
+  }
+}

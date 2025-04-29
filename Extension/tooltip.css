@@ -1,0 +1,23 @@
+#hover-tooltip {
+    background-color: rgba(0, 0, 0, 0.9); /* Slight transparency */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+    max-width: 200px;
+    word-wrap: break-word; /* Ensure long text breaks correctly */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in/out */
+  }
+
+#white-box {
+    background-color: rgb(205, 21, 21);
+    color: rgb(218, 27, 27);
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+  }
+  

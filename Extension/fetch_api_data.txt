@@ -1,0 +1,87 @@
+#old functionality of the code
+
+import requests
+import json
+
+# Function to fetch emissions data from the API
+def fetch_emissions(weight, distance, verbose=True):
+    """
+    Fetch CO2 emissions data for a given shipment weight and distance.
+    """
+    url = "https://www.carboninterface.com/api/v1/estimates"
+    headers = {"Authorization": "Bearer 28rYCUXK2Wdbv0EjvYaFg"}  # Hardcoded API key
+    payload = {
+        "type": "shipment",
+        "weight_value": weight,
+        "weight_unit": "kg",
+        "distance_value": distance,
+        "distance_unit": "km"
+    }
+
+    try:
+        response = requests.post(url, json=payload, headers=headers)
+        response.raise_for_status()
+        response_data = response.json()
+
+        # Validate response structure
+        if "data" in response_data and "attributes" in response_data["data"]:
+            if verbose:
+                print("API Response:", response_data)
+            return response_data
+        else:
+            print("Unexpected API response structure:", response_data)
+            return None
+    except requests.RequestException as e:
+        print(f"Request failed: {e}")
+        return None
+
+# Function to save fetched data to data.json
+def save_to_json(product_name, api_data):
+    """
+    Save product environmental data to the local data.json file.
+    """
+    try:
+        # Load existing data or initialize a new dictionary
+        try:
+            with open("data.json", "r") as file:
+                data = json.load(file)
+        except FileNotFoundError:
+            print("data.json not found! Creating a new file...")
+            data = {}
+
+        # Extract CO2 emissions from API response
+        co2_emissions = api_data["data"]["attributes"].get("carbon_kg", "Unknown")
+
+        # Update product data
+        data[product_name] = {
+            "co2_emissions": co2_emissions,
+            "recyclability": "Unknown",
+            "waste": "Unknown",
+            "lifecycle_impact": {
+                "manufacturing": "N/A",
+                "shipping": co2_emissions,
+                "disposal": "N/A"
+            }
+        }
+
+        # Save updated data back to data.json
+        with open("data.json", "w") as file:
+            json.dump(data, file, indent=2)
+
+        print(f"Data for '{product_name}' saved successfully.")
+    except Exception as e:
+        print(f"Error saving data: {e}")
+
+# Main logic: Fetch data for a product and save it
+if __name__ == "__main__":
+    product_name = "New Product"
+    weight_kg = 5  # Example weight in kg
+    distance_km = 1000  # Example distance in km
+
+    print(f"Fetching emissions data for {product_name}...")
+    fetched_data = fetch_emissions(weight_kg, distance_km)
+
+    if fetched_data:
+        save_to_json(product_name, fetched_data)
+    else:
+        print(f"Failed to fetch data for '{product_name}'.")

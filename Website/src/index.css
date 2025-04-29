@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+@keyframes fly {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-10%); }
+}
+
+.animate-fly {
+  animation: fly 30s linear infinite;
+}

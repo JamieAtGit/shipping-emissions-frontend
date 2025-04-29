@@ -1,0 +1,325 @@
+{
+  "_comment": "Brand origin and fulfillment metadata.",
+  "anker": {
+    "origin": {
+      "country": "China",
+      "city": "Shenzhen"
+    },
+    "fulfillment": "UK"
+  },
+  "bosch": {
+    "origin": {
+      "country": "Germany",
+      "city": "Stuttgart"
+    },
+    "fulfillment": "Germany"
+  },
+  "philips": {
+    "origin": {
+      "country": "Netherlands",
+      "city": "Amsterdam"
+    },
+    "fulfillment": "UK"
+  },
+  "apple": {
+    "origin": {
+      "country": "USA",
+      "city": "Cupertino"
+    },
+    "fulfillment": "UK"
+  },
+  "sony": {
+    "origin": {
+      "country": "Japan",
+      "city": "Tokyo"
+    },
+    "fulfillment": "UK"
+  },
+  "samsung": {
+    "origin": {
+      "country": "South Korea",
+      "city": "Suwon"
+    },
+    "fulfillment": "UK"
+  },
+  "lenovo": {
+    "origin": {
+      "country": "China",
+      "city": "Beijing"
+    },
+    "fulfillment": "UK"
+  },
+  "asus": {
+    "origin": {
+      "country": "Taiwan",
+      "city": "Taipei"
+    },
+    "fulfillment": "UK"
+  },
+  "dyson": {
+    "origin": {
+      "country": "UK",
+      "city": "Malmesbury"
+    },
+    "fulfillment": "UK"
+  },
+  "huawei": {
+    "origin": {
+      "country": "China",
+      "city": "Shenzhen"
+    },
+    "fulfillment": "UK"
+  },
+  "lg": {
+    "origin": {
+      "country": "South Korea",
+      "city": "Seoul"
+    },
+    "fulfillment": "UK"
+  },
+  "nintendo": {
+    "origin": {
+      "country": "Japan",
+      "city": "Kyoto"
+    },
+    "fulfillment": "UK"
+  },
+  "microsoft": {
+    "origin": {
+      "country": "USA",
+      "city": "Redmond"
+    },
+    "fulfillment": "UK"
+  },
+  "logitech": {
+    "origin": {
+      "country": "Switzerland",
+      "city": "Lausanne"
+    },
+    "fulfillment": "UK"
+  },
+  "xiaomi": {
+    "origin": {
+      "country": "China",
+      "city": "Beijing"
+    },
+    "fulfillment": "UK"
+  },
+  "beats": {
+    "origin": {
+      "country": "USA",
+      "city": "Santa Monica"
+    },
+    "fulfillment": "UK"
+  },
+  "huel": {
+    "origin": {
+      "country": "UK",
+      "city": "Tring"
+    },
+    "fulfillment": "UK"
+  },
+  "oral-b": {
+    "origin": {
+      "country": "USA",
+      "city": "Cincinnati"
+    },
+    "fulfillment": "UK"
+  },
+  "adidas": {
+    "origin": {
+      "country": "Germany",
+      "city": "Herzogenaurach"
+    },
+    "fulfillment": "Germany"
+  },
+  "nike": {
+    "origin": {
+      "country": "USA",
+      "city": "Beaverton"
+    },
+    "fulfillment": "UK"
+  },
+  "panasonic": {
+    "origin": {
+      "country": "Japan",
+      "city": "Osaka"
+    },
+    "fulfillment": "UK"
+  },
+  "braun": {
+    "origin": {
+      "country": "Germany",
+      "city": "Kronberg"
+    },
+    "fulfillment": "Germany"
+  },
+  "tcl": {
+    "origin": {
+      "country": "China",
+      "city": "Huizhou"
+    },
+    "fulfillment": "UK"
+  },
+  "black+decker": {
+    "origin": {
+      "country": "USA",
+      "city": "Towson"
+    },
+    "fulfillment": "UK"
+  },
+  "kenwood": {
+    "origin": {
+      "country": "UK",
+      "city": "Havant"
+    },
+    "fulfillment": "UK"
+  },
+  "delonghi": {
+    "origin": {
+      "country": "Italy",
+      "city": "Treviso"
+    },
+    "fulfillment": "UK"
+  },
+  "nespresso": {
+    "origin": {
+      "country": "Switzerland",
+      "city": "Lausanne"
+    },
+    "fulfillment": "UK"
+  },
+  "miele": {
+    "origin": {
+      "country": "Germany",
+      "city": "G\u00fctersloh"
+    },
+    "fulfillment": "Germany"
+  },
+  "beko": {
+    "origin": {
+      "country": "Turkey",
+      "city": "Istanbul"
+    },
+    "fulfillment": "UK"
+  },
+  "johnson & johnson": {
+    "origin": {
+      "country": "USA",
+      "city": "New Brunswick"
+    },
+    "fulfillment": "UK"
+  },
+  "dove": {
+    "origin": {
+      "country": "UK",
+      "city": "London"
+    },
+    "fulfillment": "UK"
+  },
+  "loreal": {
+    "origin": {
+      "country": "France",
+      "city": "Clichy"
+    },
+    "fulfillment": "UK"
+  },
+  "garnier": {
+    "origin": {
+      "country": "France",
+      "city": "Asni\u00e8res-sur-Seine"
+    },
+    "fulfillment": "UK"
+  },
+  "pampers": {
+    "origin": {
+      "country": "USA",
+      "city": "Cincinnati"
+    },
+    "fulfillment": "UK"
+  },
+  "lego": {
+    "origin": {
+      "country": "Denmark",
+      "city": "Billund"
+    },
+    "fulfillment": "UK"
+  },
+  "fisher-price": {
+    "origin": {
+      "country": "USA",
+      "city": "East Aurora"
+    },
+    "fulfillment": "UK"
+  },
+  "hasbro": {
+    "origin": {
+      "country": "USA",
+      "city": "Pawtucket"
+    },
+    "fulfillment": "UK"
+  },
+  "playmobil": {
+    "origin": {
+      "country": "Germany",
+      "city": "Zirndorf"
+    },
+    "fulfillment": "Germany"
+  },
+  "funko": {
+    "origin": {
+      "country": "USA",
+      "city": "Everett"
+    },
+    "fulfillment": "UK"
+  },
+  "casio": {
+    "origin": {
+      "country": "Japan",
+      "city": "Tokyo"
+    },
+    "fulfillment": "UK"
+  },
+  "jbl": {
+    "origin": {
+      "country": "USA",
+      "city": "Los Angeles"
+    },
+    "fulfillment": "UK"
+  },
+  "marshall": {
+    "origin": {
+      "country": "UK",
+      "city": "Milton Keynes"
+    },
+    "fulfillment": "UK"
+  },
+  "smartshake": {
+    "origin": {
+      "country": "This Co",
+      "city": "Sweden At Our Renewable Energy Plant"
+    },
+    "fulfillment": "UK"
+  },
+  "3": {
+    "origin": {
+      "country": "With Zero Airmiles Used In Production Or Shipping",
+      "city": "The Uk"
+    },
+    "fulfillment": "UK"
+  },
+  "science": {
+    "origin": {
+      "country": "This Plastic Water Bottle Is Great To Use With Other Sis Products And Powders",
+      "city": "The Eu"
+    },
+    "fulfillment": "UK"
+  },
+  "curaprox": {
+    "origin": {
+      "country": "Switzerland",
+      "city": "Unknown"
+    },
+    "fulfillment": "UK"
+  }
+}

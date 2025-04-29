@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Environmental Impact Tooltip",
+  "version": "1.2",
+  "description": "Show environmental impact data for Amazon products.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://www.amazon.co.uk/*",
+    "https://www.amazon.com/*"
+  ],
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.co.uk/*", "https://www.amazon.com/*"],
+      "js": ["content.js", "/eco_tooltips/utils/lookup.js",
+      "/eco_tooltips/content/tooltip.js", "/eco_tooltips/content/productPage.js"],
+      "css":["/tooltip.css"]
+    }
+  ]
+
+
+}

@@ -1,0 +1,36 @@
+.eco-tooltip {
+    position: absolute;
+    z-index: 9999;
+    padding: 8px 12px;
+    background: #1f1f1f;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    max-width: 300px;
+    pointer-events: none;
+  }
+
+.eco-badge {
+  margin-left: 6px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+}
+
+.eco-badge.low {
+  background-color: #4caf50;
+}
+
+.eco-badge.moderate {
+  background-color: #ff9800;
+}
+
+.eco-badge.high {
+  background-color: #f44336;
+}
+
+  
